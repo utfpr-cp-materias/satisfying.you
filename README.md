@@ -10,7 +10,7 @@ npm install
 
 ###  Configurações Manuais Obrigatórias
 
-Como as pastas `android` e `ios` foram removidas, algumas configurações feitas diretamente nelas precisam ser reaplicadas manualmente após o `npm install` gerar a pasta `android` novamente.
+Como as pastas `android` e `ios` foram removidas (caso esteja usando o zipável sem elas), algumas configurações feitas diretamente nelas precisam ser reaplicadas manualmente após o `npm install` gerar a pasta `android` novamente.
 
 #### a) Travar a Orientação da Tela (Portrait)
 
@@ -48,7 +48,7 @@ Para que os ícones da biblioteca `react-native-vector-icons` funcionem corretam
 apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
 ```
 
-### 3. Executar o Aplicativo
+### Executar o Aplicativo
 
 Após instalar as dependências e aplicar as configurações manuais, você pode rodar o projeto.
 
