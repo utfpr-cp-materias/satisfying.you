@@ -30,7 +30,7 @@ const Register = (props) => {
   return (
     <View style={styles.container}>
       <View style={styles.bodyContainer}>
-        <Input label="E-mail" value={email} onChangeText={setEmail} placeholder="Insira o e-mail" />
+        <Input label="E-mail" value={email} onChangeText={setEmail} placeholder="Insira o e-mail" keyboardType="email-address" />
         <Input label="Senha" value={password} onChangeText={setPassword} placeholder="Insira sua senha" secureTextEntry={true} />
         <Input label="Repetir Senha" value={repeatedPassword} onChangeText={setRepeatedPassword} placeholder="Repita sua senha" error={error} secureTextEntry={true} />
       </View>

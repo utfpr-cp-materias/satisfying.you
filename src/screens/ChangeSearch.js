@@ -75,13 +75,8 @@ const ChangeSearch = (props) => {
   };
 
   const handleConfirm = () => {
-    setName('');
-    setDate('');
-    setNameError('');
-    setDateError('');
-    setImage(null);
     setModalVisible(false);
-    console.log(cardData.id);
+
     removeCard(cardData.id);
     props.navigation.navigate('Drawer');
 

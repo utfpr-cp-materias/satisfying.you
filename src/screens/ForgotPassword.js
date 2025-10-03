@@ -24,7 +24,7 @@ const ForgotPassword = (props) => {
   return (
     <View style={styles.container}>
       <View style={styles.bodyContainer}>
-        <Input label="E-mail" value={email} onChangeText={setEmail} placeholder="Insira o e-mail" error={error} />
+        <Input label="E-mail" value={email} onChangeText={setEmail} placeholder="Insira o e-mail" error={error} keyboardType="email-address" />
 
         <Button onPress={handleRecoverPassword} text="RECUPERAR" fontSize={18} />
       </View>

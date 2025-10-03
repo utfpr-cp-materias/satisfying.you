@@ -2,7 +2,7 @@ import { View, TextInput, Text, StyleSheet } from 'react-native';
 
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-const Input = ({ label, error, icon, onChange, autoCapitalize = 'none', ...props }) => {
+const Input = ({ label, error, icon, autoCapitalize = 'none', ...props }) => {
   const paddingLeft = icon ? 35 : 10;
 
   return (

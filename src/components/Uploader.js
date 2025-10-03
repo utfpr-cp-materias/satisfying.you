@@ -32,8 +32,6 @@ const Uploader = ({ label, value, onChange }) => {
           <Text style={styles.placeholder}>Câmera/Galeria de imagens</Text>
         )}
       </TouchableOpacity>
-
-
     </View>
   );
 };
